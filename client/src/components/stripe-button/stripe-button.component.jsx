@@ -4,7 +4,7 @@ import axios from "axios";
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey = "pk_test_DVJvrDnqDiaagB75m5ZJP9bp00daCqMNmW";
+  const publishableKey = "pk_test_51JY991SJk6YI2JPYXRSAYf7BwLwEz3Qpzj4UsdGYrxbW8vl8jdDOSfofGYBE6RWWKTvC4SkI8e1HN3pKPxsQPaC1008N62GEUw";
 
   const onToken = token => {
     axios({
@@ -29,7 +29,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="Crown Clothing Co."
+      name="Arecanut Trading Co."
       billingAddress
       shippingAddress
       alipay

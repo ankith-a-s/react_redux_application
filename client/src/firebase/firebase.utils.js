@@ -5,14 +5,14 @@ import "firebase/auth"; //for authentication
 
 //app's Firebase configuration
 const config = {
-  apiKey: "AIzaSyDaBrNfc0sjM6Ht2RhaKER8NQdC_3WFVyQ",
-  authDomain: "crown-clothing-db-c5fff.firebaseapp.com",
-  databaseURL: "https://crown-clothing-db-c5fff.firebaseio.com",
-  projectId: "crown-clothing-db-c5fff",
-  storageBucket: "",
-  messagingSenderId: "443117383558",
-  appId: "1:443117383558:web:53516db798c47e61dc4607",
-  measurementId: "G-VWSVQ8X99Y"
+  apiKey: "AIzaSyDF4HsT9-e_HxDERBYLKVJ0qz_J7inEeJ4",
+  authDomain: "arecanut-trading.firebaseapp.com",
+  databaseURL: "https://arecanut-trading-default-rtdb.firebaseio.com/",
+  projectId: "arecanut-trading",
+  storageBucket: "arecanut-trading.appspot.com",
+  messagingSenderId: "46893931516",
+  appId: "1:46893931516:web:545ba11c5a7ad67d8d3079",
+  measurementId: "G-XPESLNH074"
 };
 
 // Initialize Firebase
