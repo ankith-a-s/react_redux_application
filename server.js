@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(enforce.HTTPS({ trustProtoHeader: true }));
   app.use(express.static(path.join(__dirname, "client/build")));
 
-  app.get("*", function(req, res) {
+  app.get("*", function (req, res) {
     // send static files in client/build folder
     res.sendFile(path.join(__dirname, "client/build", "index.html"));
   });
@@ -39,7 +39,18 @@ app.post("/payment", (req, res) => {
   const body = {
     source: req.body.token.id,
     amount: req.body.amount,
-    currency: "usd"
+    currency: "usd",
+    description: "Test transaction",
+    shipping: {
+      address: {
+        line1: req.body.token.address_line1,
+        postal_code: req.body.token.address_zip,
+        city: req.body.token.address_city,
+        state: req.body.token.address_state,
+        country: req.body.token.address_country,
+      },
+      name: req.body.token.name
+    }
   };
 
   stripe.charges.create(body, (stripeErr, stripeRes) => {
