@@ -7,6 +7,17 @@ const OptionContainerStyles = css`
   cursor: pointer;
 `;
 
+export const LogoLink = styled.a`
+    width: 70px;
+    height: 70px;
+`
+
+export const LogoImage = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+`
+
 export const HeaderContainer = styled.div`
   height: 70px;
   width: 100%;

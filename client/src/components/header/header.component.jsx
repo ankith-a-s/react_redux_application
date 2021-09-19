@@ -9,20 +9,22 @@ import { signOutStart } from "../../redux/user/user-actions";
 /* 
 a new special syntax when importing SVG in React. The ReactComponent import name is special and tells Create React App that you want a React component that renders an SVG, rather than its filename.
 */
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import { ReactComponent as Logo } from "../../assets/crown.png";
 
 import {
   HeaderContainer,
   LogoContainer,
   OptionsContainer,
-  OptionLink
+  OptionLink,
+  LogoLink,
+  LogoImage
 } from "./header.styles";
 
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
-    <LogoContainer to="/">
-      <Logo className="logo" />
-    </LogoContainer>
+    <LogoLink href="/">
+      <LogoImage src="/crwn-192x192.png" />
+    </LogoLink>
     <OptionsContainer>
       <OptionLink to="/shop">SHOP</OptionLink>
       <OptionLink to="/shop">CONTACT</OptionLink>

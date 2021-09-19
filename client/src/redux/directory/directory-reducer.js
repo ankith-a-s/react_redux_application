@@ -1,36 +1,36 @@
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
   sections: [
     {
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      title: 'Shimoga',
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/arecanut-trading.appspot.com/o/1492092832_shimoga-review-tourist-places-tourist-destinations-tourist.jpg.jpg?alt=media&token=5db4716b-ffdf-46f5-919c-00c194aaa22c',
       id: 1,
-      linkUrl: "shop/hats"
+      linkUrl: 'shop/shimoga'
     },
     {
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: 'sagar',
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/arecanut-trading.appspot.com/o/1_S9_Ngva-EmYASUtx2hG8Hg.jpeg?alt=media&token=850e6517-5c84-4bce-a6b0-139f76d22e50',
       id: 2,
-      linkUrl: "shop/jackets"
+      linkUrl: 'shop/sagar'
     },
     {
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      title: 'davanagere',
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/arecanut-trading.appspot.com/o/2018091021.jpeg?alt=media&token=f986338e-78b8-451c-9fb4-c8f774ab2c76',
       id: 3,
-      linkUrl: "shop/sneakers"
+      linkUrl: 'shop/davanagere'
     },
     {
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-      size: "large",
+      title: 'mangaluru',
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/arecanut-trading.appspot.com/o/place-2014-10-21-14-mangaloredb97f922bd0d9034575822628e83dc09.jpeg?alt=media&token=bb9afc18-e638-4038-a968-dc461796cfc5',
+      size: 'large',
       id: 4,
-      linkUrl: "shop/womens"
+      linkUrl: 'shop/mangaluru'
     },
     {
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-      size: "large",
+      title: 'bengaluru',
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/arecanut-trading.appspot.com/o/1-1529930005.jpeg?alt=media&token=fa965b4b-0dcf-4e92-b5c4-96d361ae29a9',
+      size: 'large',
       id: 5,
-      linkUrl: "shop/mens"
+      linkUrl: 'shop/bengaluru'
     }
   ]
 };
